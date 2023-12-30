@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
+import { motion } from "framer-motion";
 const About1 = () => {
   return (
     <>
@@ -10,28 +11,93 @@ const About1 = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0 ">
-             <div style={{marginLeft:"-8px"}}> <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white xl:text-hero " style={{ whiteSpace: 'nowrap' }}>
+             <div style={{marginLeft:"-8px"}}>
+             <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+            className="animate_left"
+          > <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white xl:text-hero " style={{ whiteSpace: 'nowrap' }}>
   <span className="text-content">Atoms Digital Solutions</span>
-</h2></div>
+</h2></motion.div></div>
       <div>       
-              
+      <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.5 }}
+            className="animate_left"
+          >           
     <p>
-    At Atoms Group, our mission is to inspire the world to learn. We have established ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. Our expertise lies in providing courses and training to students, teachers, parents, and educational institution management, utilizing our innovative models to create effective learning spaces.
+    Atoms Digital Solutions is a dynamic technology company focused on establishing distinctive digital identities for individuals and businesses. Our diverse range of services encompasses digital marketing, web and app development, software design and development, and top-notch photography services.
+
+
+
     </p>
+    </motion.div>
    
     <div className="mt-5">
-              <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
+    <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.8 }}
+            className="animate_left"
+          > <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
               Our Vision
                 
               </h2>
+              </motion.div>
               </div>
     <div className=" flex items-center gap-5">
             
                 <div className="w-3/4 mt-2">
-                  <h3 className="mb-0.5 text-metatitle2 text-black hover:text-blue-600 dark:text-white">
-                    Achieving greater heights is not so farther
-                  </h3>
-                  <p>ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. </p>
+                <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 1.2 }}
+            className="animate_left"
+          > 
+                  <p>To inspire the world to create unique identity in the digital space
+ </p></motion.div>
                 </div>
               </div>
              

@@ -29,19 +29,19 @@ const menuData: Menu[] = [
         id: 31,
         title: "Digital Marketing Services",
         newTab: false,
-        path: "/atom",
+        path: "https://digitalmarketingservices.atomsgroup.net/",
       },
       {
         id: 34,
         title: "Software Solutions",
         newTab: false,
-        path: "/blog",
+        path: "https://softwareservices.atomsgroup.net/",
       },
       {
         id: 35,
         title: "Visual Media",
         newTab: false,
-        path: "/atoms",
+        path: "https://visualmedia.atomsgroup.net/",
       },
      
       {
