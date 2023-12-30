@@ -116,11 +116,11 @@ const Hero = () => {
           <p className="text-blue-500 font-semibold mt-3">Team Members</p>
         </div>
         <div className="text-center">
-          <h3 className="text-4xl font-extrabold">17,68,978<span className="text-blue-600">+</span></h3>
+          <h3 className="text-4xl font-extrabold">17.5L<span className="text-blue-600">+</span></h3>
           <p className=" font-semibold mt-3 text-blue-500">Digital Reach</p>
         </div>
         <div className="text-center">
-          <h3 className="text-4xl font-extrabold">31,83,180<span className="text-blue-600">+</span></h3>
+          <h3 className="text-4xl font-extrabold">31.5L<span className="text-blue-600">+</span></h3>
           <p className="text-blue-500 font-semibold mt-3">Our Impressions</p>
         </div>
       </div>

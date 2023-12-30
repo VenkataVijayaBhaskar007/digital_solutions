@@ -5,13 +5,13 @@ const menuData: Menu[] = [
     id: 1,
     title: "Home",
     newTab: false,
-    path: "#Home",
+    path: "/#Home",
   },
   {
     id: 2,
     title: "About",
     newTab: false,
-    path: "#About",
+    path: "/#About",
   },
   {
     id: 2.3,
