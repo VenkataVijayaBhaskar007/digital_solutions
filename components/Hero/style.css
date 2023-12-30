@@ -605,10 +605,21 @@ html, body {width: auto!important; overflow-x: hidden!important}
     white-space: nowrap;
   }
   
+  
   .logos-slide img {
-    width: 8% ;
+    width: 10% ;
     margin-right: 10px;
     transition: transform 0.3s ease-in-out;
+  }
+  @media screen and (max-width: 800px) and (min-width: 400px) {
+    .logos-slide img {
+      width: 15%;
+    }
+  }
+  @media screen and (max-width: 400px) and (min-width: 300px) {
+    .logos-slide img {
+      width: 20%;
+    }
   }
   
   .logos-slide img:hover {
@@ -661,18 +672,128 @@ html, body {width: auto!important; overflow-x: hidden!important}
     opacity: 1;
   }
   
-  
-  .topmargin {
-    margin-top: -10rem;
+  .smtext {
+    margin-top: 5rem;
+    font-size: 15px ;
+    line-height: 8px ;
+    margin-bottom: -2rem;
+}
+
+  .lgtext {
+    margin-top: 5rem;
+    font-size: 20px ;
+    line-height: 18px ;
+}
+.xsmtext{
+  font-size: 10px;
+  line-height:12px;
+}
+
+/* Text size for screen sizes 300px to 400px */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .textsize {
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
-  
-  @media (max-width: 680px) {
-    .topmargin {
-      margin-top: -4rem;
-    }
+}
+
+/* Text size for screen sizes 400px to 600px */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .textsize {
+    font-size: 1rem;
+    line-height: 1rem;
   }
-  @media (min-width: 1280px) {
-    .topmargin {
-      margin-top: -12rem;
-    }
+}
+
+/* Text size for screen sizes 600px to 800px */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .textsize {
+    font-size: 1.1rem;
   }
+}
+
+/* Text size for screen sizes 800px to 1024px */
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .textsize {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1024px)  {
+  .textsize {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+}
+
+
+/* Text size for screen sizes 300px to 400px */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .textsize1 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+/* Text size for screen sizes 400px to 600px */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .textsize1 {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+}
+
+/* Text size for screen sizes 600px to 800px */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .textsize1 {
+    font-size: 2rem;
+  }
+}
+
+/* Text size for screen sizes 800px to 1024px */
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .textsize1 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1024px)  {
+  .textsize1 {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 639px) {
+  .space {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 639px) {
+  .space {
+    padding-top: 2rem;
+  }
+}
+/* Default style for the 'pad' tag */
+.pad {
+padding-top: 6rem; /* Adjust the default padding as needed */
+}
+
+/* Media query for screen sizes 639px to 767px */
+@media screen and (min-width: 639px) and (max-width: 767px) {
+.pad {
+  padding-top: 8rem;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+.pad {
+  padding-top: 5rem;
+}
+}
+
+/* Media query for screen sizes 1280px and above */
+@media screen and (min-width: 1280px) {
+.pad {
+  padding-top: 7.5rem;
+}
+}

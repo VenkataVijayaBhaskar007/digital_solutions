@@ -5,36 +5,41 @@ const menuData: Menu[] = [
     id: 1,
     title: "Home",
     newTab: false,
-    path: "#home",
+    path: "#Home",
   },
   {
     id: 2,
     title: "About",
     newTab: false,
-    path: "#about",
+    path: "#About",
   },
-
+  {
+    id: 2.3,
+    title: "Team",
+    newTab: false,
+    path: "/team",
+  },
 
   {
     id: 3,
-    title: "Companies",
+    title: "Projects",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Atoms digital solutins",
+        title: "Digital Marketing Services",
         newTab: false,
         path: "/atom",
       },
       {
         id: 34,
-        title: "Atoms Education",
+        title: "Software Solutions",
         newTab: false,
         path: "/blog",
       },
       {
         id: 35,
-        title: "Atoms 2.0",
+        title: "Visual Media",
         newTab: false,
         path: "/atoms",
       },
@@ -53,12 +58,7 @@ const menuData: Menu[] = [
       },
     ],
   },
-  {
-    id: 2.3,
-    title: "Team",
-    newTab: false,
-    path: "/team",
-  },
+
 ];
 
 export default menuData;
