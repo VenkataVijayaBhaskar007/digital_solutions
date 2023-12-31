@@ -127,47 +127,7 @@ const Hero = () => {
     </div>
 </section>
 
-  {/* <section>
-  
 
-<div className="topmargin" >
-  <div className="relative">
-  
-    <div className=" relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-      <div className=" max-w-4xl mx-auto">
-        <dl className="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
-          <div className="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500" id="item-1">
-        Clients
-            </dt>
-            <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600" >
-              20+
-            </dd>
-          </div>
-          <div
-            className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-            Digital Reach
-            </dt>
-            <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600">
-              17,68,978+
-            </dd>
-          </div>
-          <div className="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-         Our Impressions
-            </dt>
-            <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600">
-              31,83,180+
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </div>
-  </div>
-</div>
-
-</section>  */}
 
 
 
