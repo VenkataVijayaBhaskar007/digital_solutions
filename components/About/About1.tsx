@@ -152,6 +152,17 @@ const About1 = () => {
             </div>
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
+                           
+              <video
+  className="object-contain rounded-3xl w-full"
+  height="600"
+  width="778"
+  src="./images/about/about3.webm"
+  autoPlay
+  muted
+  loop
+/>
+    
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                    
