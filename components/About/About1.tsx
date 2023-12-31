@@ -141,7 +141,7 @@ const About1 = () => {
             transition={{ duration: 1, delay: 1 }}
             className="animate_left"
           > 
-                  <p>To inspire the world to create unique identity in the digital space
+                  <p>Shaping distinctive digital identities through cutting-edge technology and comprehensive services.
  </p></motion.div>
                 </div>
               </div>
@@ -163,17 +163,7 @@ const About1 = () => {
   loop
 />
     
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                  <div className="relative z-10 my-4">
-                   
-                  <img
-                      src="./images/about/16.png"
-                      alt=""
-
-                      className="w-full "
-                    />
-                  </div>
-                </div>
+             
               
                
               </div>
