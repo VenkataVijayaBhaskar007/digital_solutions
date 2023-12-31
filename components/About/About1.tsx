@@ -100,7 +100,51 @@ const About1 = () => {
  </p></motion.div>
                 </div>
               </div>
-             
+              <div className="mt-5">
+    <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.9 }}
+            className="animate_left"
+          > <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
+              Our Mission
+                
+              </h2>
+              </motion.div>
+              </div>
+    <div className=" flex items-center gap-5">
+            
+                <div className="w-3/4 mt-2">
+                <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                x: -40,
+              },
+              visible: {
+                opacity: 1,
+                x: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 1 }}
+            className="animate_left"
+          > 
+                  <p>To inspire the world to create unique identity in the digital space
+ </p></motion.div>
+                </div>
+              </div>
               
              
                    </div>
