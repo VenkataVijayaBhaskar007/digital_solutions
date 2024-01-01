@@ -164,7 +164,7 @@ relative z-10 overflow-hidden bg-white dark:bg-dark py-20 lg:py-[120px]"
                   </div>
                   <div className="mb-6">
                      <textarea
-                        rows="6"
+                      
                         placeholder="Your Message"
                         className="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"
                         ></textarea>
