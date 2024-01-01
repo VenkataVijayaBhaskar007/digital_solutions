@@ -93,7 +93,7 @@ const About1 = () => {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 1.2 }}
+            transition={{ duration: 1, delay: 1}}
             className="animate_left"
           > 
                   <p>To inspire the world to create unique identity in the digital space
@@ -114,7 +114,7 @@ const About1 = () => {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 0.9 }}
+            transition={{ duration: 1, delay: 1.1 }}
             className="animate_left"
           > <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
               Our Mission
@@ -138,7 +138,7 @@ const About1 = () => {
             }}
             initial="hidden"
             whileInView="visible"
-            transition={{ duration: 1, delay: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
             className="animate_left"
           > 
                   <p>Shaping distinctive digital identities through cutting-edge technology and comprehensive services.
