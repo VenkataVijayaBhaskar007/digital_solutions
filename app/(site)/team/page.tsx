@@ -17,7 +17,7 @@ const Team = () => {
       <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/11.png"
+              src="./images/atomsgallery/11.webp"
               alt=""
             />
              <div className="hide">
@@ -89,7 +89,7 @@ const Team = () => {
    <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/12.png"
+              src="./images/atomsgallery/12.webp"
               alt=""
             />
                       <div className="hide">
@@ -161,7 +161,7 @@ const Team = () => {
        <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/13.png"
+              src="./images/atomsgallery/13.webp"
               alt=""
             />
             <div className="hide">
@@ -233,7 +233,7 @@ const Team = () => {
         <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/14.png"
+              src="./images/atomsgallery/14.webp"
               alt=""
             />
              <div className="hide">
@@ -305,7 +305,7 @@ const Team = () => {
        <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/15.png"
+              src="./images/atomsgallery/15.webp"
               alt=""
             />
              <div className="hide" style={{whiteSpace:"nowrap"}}>
@@ -376,7 +376,7 @@ const Team = () => {
           <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/16.png"
+              src="./images/atomsgallery/16.webp"
               alt=""
             />
              <div className="hide" style={{whiteSpace:"nowrap"}}>
@@ -449,7 +449,7 @@ const Team = () => {
           <div className="profile-card mb-8">
           <div className="img">
             <img
-              src="./images/atomsgallery/17.png"
+              src="./images/atomsgallery/17.webp"
               alt=""
             />
               <div className="hide">
