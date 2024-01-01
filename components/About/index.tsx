@@ -133,7 +133,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
-          src="./images/projects/2.png"
+          src="./images/projects/2.webp"
           alt="card image"
         />
         {/* Unique Shape Overlay */}
@@ -161,7 +161,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
-          src="./images/projects/6.png"
+          src="./images/projects/6.webp"
           alt="card image"
         />
         {/* Unique Shape Overlay */}
@@ -188,7 +188,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
-          src="./images/projects/10.png"
+          src="./images/projects/10.webp"
           alt="card image"
         />
         {/* Unique Shape Overlay */}
