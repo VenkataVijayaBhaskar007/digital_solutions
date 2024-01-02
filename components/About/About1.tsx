@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About1 = () => {
   return (
     <>
-      <section id="About" className="overflow-hidden  pb-20 lg:pt-[10px] lg:pb-[90px] bg-white dark:bg-dark px-10">
+      <section id="About" className="overflow-hidden  pb-20 lg:pt-[10px]  bg-white dark:bg-dark px-10">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
           
@@ -79,7 +79,7 @@ const About1 = () => {
               </div>
     <div className=" flex items-center gap-5">
             
-                <div className="w-3/4 mt-2">
+                <div className=" mt-2">
                 <motion.div
             variants={{
               hidden: {
@@ -124,7 +124,7 @@ const About1 = () => {
               </div>
     <div className=" flex items-center gap-5">
             
-                <div className="w-3/4 mt-2">
+                <div className=" mt-2">
                 <motion.div
             variants={{
               hidden: {
@@ -150,8 +150,8 @@ const About1 = () => {
                    </div>
               </div>
             </div>
-            <div className="w-full px-4 lg:w-6/12">
-              <div className="flex items-center -mx-3 sm:-mx-4">
+            <div className="w-full -px-4 lg:w-6/12 mt-15">
+              <div className="flex items-center ">
                            
               <video
   className="object-contain rounded-3xl w-full"
@@ -173,7 +173,7 @@ const About1 = () => {
       </section>
       
 <section>
-<div className="sm:-mt-10 md:-mt-15 lg:-mt-40 min-h-[350px] flex items-center justify-center font-[sans-serif] text-[#333] ">
+<div className="  min-h-[350px] flex items-center justify-center font-[sans-serif] text-[#333] ">
       <div className="bg-white shadow-[0_4px_24px_-8px_rgba(0,0,0,0.2)] grid lg:grid-cols-4 sm:grid-cols-2 sm:gap-24 gap-12 rounded-3xl px-20 py-10">
         <div className="text-center">
           <h3 className="text-4xl font-extrabold">20<span className="text-blue-600">+</span></h3>
