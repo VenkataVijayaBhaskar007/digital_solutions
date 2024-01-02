@@ -104,28 +104,6 @@ const Hero = () => {
 
 
 
-<section>
-<div className="sm:-mt-10 md:-mt-15 lg:-mt-40 min-h-[350px] flex items-center justify-center font-[sans-serif] text-[#333] ">
-      <div className="bg-white shadow-[0_4px_24px_-8px_rgba(0,0,0,0.2)] grid lg:grid-cols-4 sm:grid-cols-2 sm:gap-24 gap-12 rounded-3xl px-20 py-10">
-        <div className="text-center">
-          <h3 className="text-4xl font-extrabold">20<span className="text-blue-600">+</span></h3>
-          <p className="text-blue-500 font-semibold mt-3">Total Clients</p>
-        </div>
-        <div className="text-center">
-          <h3 className="text-4xl font-extrabold">10<span className="text-blue-600">+</span></h3>
-          <p className="text-blue-500 font-semibold mt-3">Team Members</p>
-        </div>
-        <div className="text-center">
-          <h3 className="text-4xl font-extrabold">17.5L<span className="text-blue-600">+</span></h3>
-          <p className=" font-semibold mt-3 text-blue-500">Digital Reach</p>
-        </div>
-        <div className="text-center">
-          <h3 className="text-4xl font-extrabold">31.5L<span className="text-blue-600">+</span></h3>
-          <p className="text-blue-500 font-semibold mt-3">Our Impressions</p>
-        </div>
-      </div>
-    </div>
-</section>
 
 
 
