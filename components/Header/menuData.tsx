@@ -14,6 +14,12 @@ const menuData: Menu[] = [
     path: "/#About",
   },
   {
+    id: 2.8,
+    title: "Atoms Group",
+    newTab: false,
+    path: "https://www.atomsgroup.net/",
+  },
+  {
     id: 2.3,
     title: "Team",
     newTab: false,
