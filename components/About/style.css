@@ -127,7 +127,6 @@ html, body {width: auto!important; overflow-x: hidden!important}
     white-space: nowrap;
   }
   
- 
   .logos-slide img {
     width: 10% ;
     margin-right: 10px;
@@ -135,12 +134,12 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
   @media screen and (max-width: 800px) and (min-width: 400px) {
     .logos-slide img {
-      width: 35%;
+      width: 26%;
     }
   }
   @media screen and (max-width: 400px) and (min-width: 300px) {
     .logos-slide img {
-      width: 50%;
+      width: 32%;
     }
   }
   
