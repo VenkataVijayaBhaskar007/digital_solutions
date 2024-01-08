@@ -129,7 +129,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
             transition={{ duration: 1, delay: 0.1 }}
             className="animate_left lg:w-1/1 px-4"
           ><div className="flex flex-wrap justify-center">
-    <div className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
+    <a href="https://digitalmarketingservices.atomsgroup.net/" className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
@@ -154,10 +154,10 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
           </svg>
         </a>
       </div>
-    </div>
+    </a>
     
    {/* 2 Card */}
-   <div className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
+   <a  href="https://softwareservices.atomsgroup.net/" className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
@@ -182,9 +182,9 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
           </svg>
         </a>
       </div>
-    </div>
+    </a>
      {/* 3 Card */}
-     <div className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
+     <a  href="https://visualmedia.atomsgroup.net/" className="max-w-sm mx-4 my-4 overflow-hidden bg-white dark:bg-btndark rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out">
       <div className="relative w-full h-48 overflow-hidden">
         <img
           className="object-cover object-center w-full h-full"
@@ -211,7 +211,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
 
 
       </div>
-    </div>
+    </a>
 
 
   </div>
