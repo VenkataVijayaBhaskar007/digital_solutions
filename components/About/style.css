@@ -140,7 +140,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
   @media screen and (max-width: 400px) and (min-width: 300px) {
     .logos-slide img {
-      width: 32%;
+      width: 40%;
     }
   }
   
