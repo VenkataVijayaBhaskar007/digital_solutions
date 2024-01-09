@@ -283,8 +283,7 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
        
        
        
-           <img src="./images/clients/6.png" alt="client-6 logo image" />
-       
+          
        
        
            <img src="./images/clients/7.png" alt="client-7 logo image" />
@@ -295,7 +294,6 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
        
        
        
-           <img src="./images/clients/9.png" alt="client-9 logo image" />
        
        
        
