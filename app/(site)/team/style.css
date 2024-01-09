@@ -6,13 +6,17 @@ html, body {width: auto!important; overflow-x: hidden!important}
     font-family: 'Poppins', sans-serif;
     width: 220px;
     height: 200px;
-  
-  
-   
     transition: 0.6s;
     margin: 0 55px;
     margin-bottom: 150px;
   
+  }
+  @media screen and (min-width: 300px) and (max-width: 400px) {
+    .profile-card1 {
+   
+    margin-bottom: 600px;
+    padding-bottom: 20rem;
+    }
   }
   
   .profile-card:hover {
@@ -23,6 +27,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     /* background: linear-gradient(20deg, #2e71c3, #79efff); */
     background-color: #fff;
     border: 3px solid #3498db;
+
   }
   
   
@@ -63,12 +68,9 @@ html, body {width: auto!important; overflow-x: hidden!important}
   .profile-card:nth-child(5):hover .caption {
     transform: translateY(-170px);
   }
-  .profile-card:nth-child(6):hover .caption {
-    transform: translateY(-160px);
-  }
   .profile-card:nth-child(7):hover .caption {
-    transform: translateY(-160px);
-  }
+    transform: translateY(-175px);
+    }
   
   
   .profile-card:nth-child(8):hover .caption {
