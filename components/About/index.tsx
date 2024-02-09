@@ -168,12 +168,12 @@ With a passion for innovation and creativity, we thrive on crafting unique and i
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-30"></div>
       </div>
       <div className="p-6 relative z-10">
-      <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Software services</h2>
+      <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Software Solutions</h2>
         <p className="text-base text-gray-600 dark:text-gray-300">
         Atoms  Digital Solutions is committed to providing affordable and impressive  Digital Solutions services for people social backgrounds. Our current projects include a private hostel offering ...
         </p>
         <a
-          href="https://softwareservices.atomsgroup.net/"
+          href="https://softwaresolutions.atomsgroup.net/"
           className=" Digital Solutions mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
         >
           <span className="duration-300  Digital Solutions-hover:pr-2">Learn more</span>
